@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRS.API", "ASRS.API\ASRS.API.csproj", "{5F8F8E75-602A-4A20-A936-63D10651319E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8F8E75-602A-4A20-A936-63D10651319E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8F8E75-602A-4A20-A936-63D10651319E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8F8E75-602A-4A20-A936-63D10651319E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8F8E75-602A-4A20-A936-63D10651319E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C39BE96-2DF5-4F3A-B0F8-714BCFFEC1AB}
+	EndGlobalSection
+EndGlobal
