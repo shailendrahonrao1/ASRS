@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRS.API", "ASRS.API\ASRS.API.csproj", "{5F8F8E75-602A-4A20-A936-63D10651319E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASRS.API", "ASRS.API\ASRS.API.csproj", "{5F8F8E75-602A-4A20-A936-63D10651319E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRS.Application", "ASRS.Application\ASRS.Application.csproj", "{C6207986-D0D5-446E-B533-990665890BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRS.Core", "ASRS.Core\ASRS.Core.csproj", "{1CD45C22-DB8D-4AF2-9203-05838335BA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRS.Infrastructure", "ASRS.Infrastructure\ASRS.Infrastructure.csproj", "{91A465F4-F5EB-4A41-8728-46B125D71851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5F8F8E75-602A-4A20-A936-63D10651319E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F8F8E75-602A-4A20-A936-63D10651319E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F8F8E75-602A-4A20-A936-63D10651319E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6207986-D0D5-446E-B533-990665890BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6207986-D0D5-446E-B533-990665890BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6207986-D0D5-446E-B533-990665890BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6207986-D0D5-446E-B533-990665890BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD45C22-DB8D-4AF2-9203-05838335BA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD45C22-DB8D-4AF2-9203-05838335BA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD45C22-DB8D-4AF2-9203-05838335BA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD45C22-DB8D-4AF2-9203-05838335BA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A465F4-F5EB-4A41-8728-46B125D71851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A465F4-F5EB-4A41-8728-46B125D71851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A465F4-F5EB-4A41-8728-46B125D71851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A465F4-F5EB-4A41-8728-46B125D71851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
