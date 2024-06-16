@@ -19,5 +19,7 @@ namespace ASRS.Core.Models
         public string CreatedBy { get; set; }
         public string ApprovedBy { get; set; }
         public DateTime StockReleasedDate { get; set; }
+        public string ItemCode { get; set; } // Required foreign key property
+        public ItemMaster ItemMaster { get; set; } = null!; // Required reference navigation to principal
     }
 }

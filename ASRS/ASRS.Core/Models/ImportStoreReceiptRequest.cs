@@ -7,16 +7,13 @@ using System.Threading.Tasks;
 
 namespace ASRS.Core.Models
 {
-    public class StoreReceiptRequest
+    public class ImportStoreReceiptRequest
     {
-        [Key]
-        public int Id { get; set; }
         public string CRVNo { get; set; }
         public int QuantityReceived { get; set; }
         public string ItemCode { get; set; }
         public string LedgerFolioNo { get; set; }
         public string ItemSerialNo { get; set; }
         public DateTime CRVDate { get; set; }
-        public string CreatedBy { get; set; }
     }
 }

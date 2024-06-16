@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ASRS.Core.Models
+namespace ASRS.Application.ViewModels
 {
-    public class ItemMaster
+    public class ItemMasterResponse
     {
-        [Key]
         public string ItemCode { get; set; }
         public string ItemDescription { get; set; }
         public string DenominationNo { get; set; }
@@ -13,8 +16,5 @@ namespace ASRS.Core.Models
         public string ItemType { get; set; }
         public string ItemCategory { get; set; }
         public string Equipment { get; set; }
-
-        public ICollection<StoreReceipt> StoreReceipts { get; } = new List<StoreReceipt>(); // Collection navigation containing dependents
-        public ICollection<StockRelease> StockReleases { get; } = new List<StockRelease>(); // Collection navigation containing dependents
     }
 }

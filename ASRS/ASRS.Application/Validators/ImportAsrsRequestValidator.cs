@@ -1,17 +1,11 @@
 ﻿using ASRS.Application.ViewModels;
 using FluentValidation;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ASRS.Application.Validators
 {
-    public class ImportAsrsRequestValidators : AbstractValidator<ImportAsrsRequest>
+    public class ImportAsrsRequestValidator : AbstractValidator<ImportAsrsRequest>
     {
-        public ImportAsrsRequestValidators()
+        public ImportAsrsRequestValidator()
         {
             RuleFor(f => f.file).NotEmpty()
                 .WithMessage("Please select file");

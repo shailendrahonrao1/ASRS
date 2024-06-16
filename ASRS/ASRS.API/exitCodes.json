@@ -1,0 +1,14 @@
+{
+  "ExitCodeConfig": {
+    "version": "1.0.0",
+    "title": "ASRS Api Exit Codes",
+    "description": "Exit codes for ASRS API",
+    "ExitCodeList": [
+      {
+        "Code": "40001",
+        "Message": "",
+        "Type": "Validation"
+      }
+    ]
+  }
+}
